@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proteção Veicular - Pedro</title>
+<style>
+body {font-family: Arial; margin:0; padding:0; background:#f4f4f4;}
+.container {max-width:800px; margin:auto; padding:20px; background:white;}
+h1 {color:#111;}
+button {background:#000; color:#fff; padding:12px 20px; border:none; cursor:pointer;}
+input {width:100%; padding:10px; margin:8px 0;}
+.section {margin-top:30px;}
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1>Proteção Veicular Completa</h1>
+<p>Proteja seu veículo com benefícios exclusivos e atendimento rápido.</p>
+
+<div class="section">
+<h2>Benefícios</h2>
+<ul>
+<li>1500km de reboque</li>
+<li>Veículo reserva gratuito</li>
+<li>6 manutenções inclusas</li>
+<li>Descontos exclusivos</li>
+</ul>
+</div>
+
+<div class="section">
+<h2>Telefones Úteis</h2>
+  <p>Emergência 24h: 0800 064 1000 \ 0800 000 7770</p>
+<p>WhatsApp Pedro: (21) 97386-3566</p>
+</div>
+
+<div class="section">
+<h2>Instagram</h2>
+<p>@pedrogabrielespe</p>
+<p>@exodubeneficios</p>
+</div>
+
+<div class="section">
+<h2>Receba sua Cotação</h2>
+<form action="SEU_BACKEND_AQUI" method="POST">
+<input type="text" name="nome" placeholder="Seu nome" required>
+<input type="tel" name="telefone" placeholder="Seu telefone" required>
+<input type="text" name="placa" placeholder="Placa do veículo" required>
+<button type="submit">Quero minha simulação</button>
+</form>
+</div>
+
+</div>
+</body>
+</html>
